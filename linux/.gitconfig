@@ -1,0 +1,6 @@
+[user]
+	name = Yongwan Jo
+	email = yw9865@gmail.com
+	signingkey = 87184FE53C7B78C5
+[commit]
+	gpgsign = true
