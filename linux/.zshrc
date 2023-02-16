@@ -146,6 +146,5 @@ lookup() { grep -r "#[ \t]*define[ \t]* $1" /usr/include; }
 # connect ctf ssh
 alias pwncollege='ssh yonsei@yonsei.pwn.college'
 
-
-
-
+# Search function using grep
+search() { grep -rnH $2 $1; }

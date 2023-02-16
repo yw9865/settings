@@ -12,23 +12,21 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-
 	"Initialize Main": {
 		"prefix": "start",
 		"body": [
-		  "#include <stdio.h>",
-		  "",
-		  "typedef unsigned long long u64;",
-		  "",
-		  "$1",
-		  "int main(void) {",
-		  "\t$0",
-		  "\treturn 0;",
-		  "}"
+			"#include <stdio.h>",
+			"",
+			"typedef unsigned long long u64;",
+			"",
+			"$1",
+			"int main(void) {",
+			"\t$0",
+			"\treturn 0;",
+			"}"
 		],
 		"description": "start code snipet"
-	  },
-
+	},
 	"printf": {
 		"prefix": "sysout",
 		"body": [
@@ -36,16 +34,28 @@
 			"$0"
 		],
 		"description": "printf and formatting"
-	  },
-
-	  "For loop": {
+	},
+	"For loop": {
 		"prefix": "for",
 		"body": [
-		  "for (int ${1:i}=${2:0}; ${1:idx}<${3:size}; ++${1:i}) {",
-		  "\t$0",
-		  "}"
+			"for (int ${1:i}=${2:0}; ${1:idx}<${3:size}; ++${1:i}) {",
+			"\t$0",
+			"}"
 		],
 		"description": "for loop snipet"
-	  },
+	},
+	"printk-debug": {
+		"prefix": "debugk",
+		"body": [
+			"printk(\"DEBUG: $1\\n\"$2);\t\t\/\/ debug"
+		],
+		"description": "for loop snipet"
+	},
+	"printf-debug": {
+		"prefix": "debugf",
+		"body": [
+			"printf(\"DEBUG: $1\\n\"$2);\t\t\/\/ debug"
+		],
+		"description": "for loop snipet"
+	}
 }
-

@@ -9,6 +9,7 @@
     "files.trimTrailingWhitespace": true,
     // better comments
     "better-comments.tags": [
+
       {
           "tag": "!",
           "color": "#FF80AB",
@@ -68,6 +69,12 @@
           "color": "#F4FF81",
           "strikethrough": false,
           "backgroundColor": "transparent"
+      },
+      {
+          "tag": "debug",
+          "color": "#60FD12",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
       }
     ],
     // VS default editor setting
@@ -95,5 +102,5 @@
     },
     "editor.tabCompletion": "on",
     "terminal.integrated.defaultProfile.linux": "zsh",
+    "diffEditor.ignoreTrimWhitespace": false,
 }
-
