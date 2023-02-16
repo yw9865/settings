@@ -47,15 +47,15 @@
 	"printk-debug": {
 		"prefix": "debugk",
 		"body": [
-			"printk(\"DEBUG: $1\\n\"$2);\t\t\/\/ debug"
+			"printk(\"DEBUG: $1\\n\"$2);\t\t\/\/ DEBUG"
 		],
-		"description": "for loop snipet"
+		"description": "printk debugging"
 	},
 	"printf-debug": {
 		"prefix": "debugf",
 		"body": [
-			"printf(\"DEBUG: $1\\n\"$2);\t\t\/\/ debug"
+			"printf(\"DEBUG: $1\\n\"$2);\t\t\/\/ DEBUG"
 		],
-		"description": "for loop snipet"
-	}
+		"description": "printf debugging"
+	},
 }

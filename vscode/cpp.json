@@ -15,81 +15,82 @@
 	"Initialize Main": {
 		"prefix": "start",
 		"body": [
-		  "#include <iostream>",
-		  "using namespace std;",
-		  "",
-		  "$1",
-		  "",
-		  "int main() {",
-		  "\t$0",
-		  "\treturn 0;",
-		  "}"
+			"#include <iostream>",
+			"using namespace std;",
+			"",
+			"$1",
+			"",
+			"int main() {",
+			"\t$0",
+			"\treturn 0;",
+			"}"
 		],
 		"description": "start code snipet"
-	  },
-
-	  "ps start": {
+	},
+	"ps start": {
 		"prefix": "ps",
 		"body": [
-		  "#include <bits/stdc++.h>",
-		  "using namespace std;",
-		  "",
-		  "int main() {",
-		  "\tios::sync_with_stdio(0);",
-		  "\tcin.tie(0);",
-		  "\tcout.tie(0);",
-		  "\t$0",
-		  "\treturn 0;",
-		  "}"
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"\tios::sync_with_stdio(0);",
+			"\tcin.tie(0);",
+			"\tcout.tie(0);",
+			"\t$0",
+			"\treturn 0;",
+			"}"
 		],
 		"description": "ps start code snipet"
-	  },
-
-	  "std out": {
+	},
+	"std out": {
 		"prefix": "cout",
 		"body": [
-		  "cout << $1 << endl;",
-		  "$0"
+			"cout << $1 << endl;",
+			"$0"
 		],
 		"description": "cout snipet"
-	  },
-
-	  "For loop": {
+	},
+	"For loop": {
 		"prefix": "for",
 		"body": [
-		  "for (size_t ${1:i}=${2:0}; ${1:idx}<${3:size}; ++${1:i}) {",
-		  "\t$0",
-		  "}"
+			"for (size_t ${1:i}=${2:0}; ${1:idx}<${3:size}; ++${1:i}) {",
+			"\t$0",
+			"}"
 		],
 		"description": "for loop snipet"
-	  },
-
-	  "For each loop": {
+	},
+	"For each loop": {
 		"prefix": "foreach",
 		"body": [
-		  "for (const auto ${2:element} : ${1:container}) {",
-		  "\t$0",
-		  "}"
+			"for (const auto ${2:element} : ${1:container}) {",
+			"\t$0",
+			"}"
 		],
 		"description": "foreach loop snipet"
-	  },
-
-	  "For const loop": {
+	},
+	"For const loop": {
 		"prefix": "forconst",
 		"body": [
-		  "for (const ${2:element} of ${1:array}) {",
-		  "\t$0",
-		  "}"
+			"for (const ${2:element} of ${1:array}) {",
+			"\t$0",
+			"}"
 		],
 		"description": "for-const loop snipet"
-	  },
-
-	  "printf": {
+	},
+	"printf": {
 		"prefix": "sysout",
 		"body": [
 			"printf(\"$1\\n\", $2);",
 			"$0"
 		],
 		"description": "printf and formatting"
-	  }
+	},
+	"printf-debug": {
+		"prefix": "debugf",
+		"body": [
+			"printf(\"DEBUG: $1\\n\"$2);\t\t\/\/ DEBUG"
+		],
+		"description": "printf debugging"
+	}
 }
