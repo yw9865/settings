@@ -89,7 +89,7 @@
 	"printf-debug": {
 		"prefix": "debugf",
 		"body": [
-			"printf(\"DEBUG: $1\\n\"$2);\t\t\/\/ DEBUG"
+			"printf(\"DEBUG: $1\\n\"$2);\t\t\/\/ DEBUGF"
 		],
 		"description": "printf debugging"
 	}
