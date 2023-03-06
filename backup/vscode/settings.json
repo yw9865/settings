@@ -1,0 +1,127 @@
+{
+    "editor.fontFamily": "ubuntu mono",
+    "gitlens.hovers.currentLine.over": "line",
+    "window.zoomLevel": 1,
+    // file setting
+    "files.autoGuessEncoding": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // better comments
+    "better-comments.multilineComments": true,
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF80AB",
+            "strikethrough": false,
+            "backgroundColor": "transparent",
+            "underline": false,
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*!",
+            "color": "#FF80AB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "warning",
+            "color": "#FF80AB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "* warning",
+            "color": "#FF80AB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "?",
+            "color": "#82B1FF",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "*?",
+            "color": "#82B1FF",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "todo",
+            "color": "#FF9E80",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "* todo",
+            "color": "#FF9E80",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "note",
+            "color": "#D0B134",
+            "strikethrough": false,
+            "backgroundColor": "transparent",
+            "bold": true
+        },
+        {
+            "tag": "* note",
+            "color": "#D0B134",
+            "strikethrough": false,
+            "backgroundColor": "transparent",
+            "bold": true
+        },
+        {
+            "tag": "debug",
+            "color": "#009000",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "obsolete",
+            "color": "#25383C",
+            "strikethrough": true,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "* obsolete",
+            "color": "#25383C",
+            "strikethrough": true,
+            "backgroundColor": "transparent"
+        }
+    ],
+    // VS default editor setting
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.guides.indentation": true,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#c8d169",
+        "editorBracketHighlight.foreground1": "#969d4f",
+        "editorBracketHighlight.foreground2": "#6bcece",
+        "editorBracketHighlight.foreground3": "#B388FF",
+        "editorBracketHighlight.foreground4": "#F78C6C",
+        "editorBracketHighlight.foreground5": "#b9e982",
+        "editorBracketHighlight.foreground6": "#EA80FC",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#FF80AB",
+    },
+    // One Dark Pro
+    "workbench.colorTheme": "Quiet Light",
+    "editor.tokenColorCustomizations": {
+        "comments": "#777777"
+    },
+    "[cpp]": {
+        "editor.tabSize": 2
+    },
+    "editor.tabCompletion": "on",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+}
