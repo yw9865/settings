@@ -148,3 +148,6 @@ alias pwncollege='ssh yonsei@yonsei.pwn.college'
 
 # Search function using grep
 search() { grep -rnH $2 $1; }
+
+# Open current directory
+alias opendir='nautilus'
