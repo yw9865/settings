@@ -44,7 +44,7 @@ debug() { gcc $1 ; ./a.out; }
 alias nzsh='gnome-terminal --window-with-profile=zsh'
 
 # git custom commands
-alias git-short='git log --format=short --abbrev-commit --name-only'
+alias git-short='git log --format=medium --abbrev-commit --name-only'
 
 # Open Ubuntu GUI directory
 alias opendir='nautilus'

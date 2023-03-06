@@ -118,7 +118,7 @@ alias rm='rm -v'
 alias python=python3
 
 # git custom commands
-alias git-short='git log --format=short --abbrev-commit --name-only'
+alias git-short='git log --format=medium --abbrev-commit --name-only'
 
 # Testing codes. compile and run a.out
 debug() { gcc $S1 ; ./a.out; }
