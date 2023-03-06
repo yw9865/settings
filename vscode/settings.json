@@ -8,12 +8,17 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     // better comments
+    "better-comments.multilineComments": true,
+    "better-comments.highlightPlainText": true,
     "better-comments.tags": [
         {
             "tag": "!",
             "color": "#FF80AB",
             "strikethrough": false,
-            "backgroundColor": "transparent"
+            "backgroundColor": "transparent",
+            "underline": false,
+            "bold": false,
+            "italic": false
         },
         {
             "tag": "*!",
@@ -59,32 +64,34 @@
         },
         {
             "tag": "note",
-            "color": "#F4FF81",
+            "color": "#D0B134",
             "strikethrough": false,
-            "backgroundColor": "transparent"
+            "backgroundColor": "transparent",
+            "bold": true
         },
         {
             "tag": "* note",
-            "color": "#F4FF81",
+            "color": "#D0B134",
             "strikethrough": false,
-            "backgroundColor": "transparent"
+            "backgroundColor": "transparent",
+            "bold": true
         },
         {
             "tag": "debug",
-            "color": "#60FD12",
+            "color": "#009000",
             "strikethrough": false,
             "backgroundColor": "transparent"
         },
         {
             "tag": "obsolete",
-            "color": "#E9ECEF",
-            "strikethrough": false,
+            "color": "#25383C",
+            "strikethrough": true,
             "backgroundColor": "transparent"
         },
         {
             "tag": "* obsolete",
-            "color": "#E9ECEF",
-            "strikethrough": false,
+            "color": "#25383C",
+            "strikethrough": true,
             "backgroundColor": "transparent"
         }
     ],
@@ -94,17 +101,17 @@
     "editor.guides.highlightActiveIndentation": true,
     "editor.guides.indentation": true,
     "workbench.colorCustomizations": {
-        "editorIndentGuide.activeBackground": "#F4FF81",
-        "editorBracketHighlight.foreground1": "#F4FF81",
-        "editorBracketHighlight.foreground2": "#84FFFF",
+        "editorIndentGuide.activeBackground": "#c8d169",
+        "editorBracketHighlight.foreground1": "#969d4f",
+        "editorBracketHighlight.foreground2": "#6bcece",
         "editorBracketHighlight.foreground3": "#B388FF",
         "editorBracketHighlight.foreground4": "#F78C6C",
-        "editorBracketHighlight.foreground5": "#CCFF90",
+        "editorBracketHighlight.foreground5": "#b9e982",
         "editorBracketHighlight.foreground6": "#EA80FC",
         "editorBracketHighlight.unexpectedBracket.foreground": "#FF80AB",
     },
     // One Dark Pro
-    "workbench.colorTheme": "One Dark Pro Flat",
+    "workbench.colorTheme": "Quiet Light",
     "editor.tokenColorCustomizations": {
         "comments": "#777777"
     },
@@ -114,4 +121,7 @@
     "editor.tabCompletion": "on",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "diffEditor.ignoreTrimWhitespace": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
 }
