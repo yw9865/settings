@@ -20,7 +20,7 @@
 			"typedef unsigned long long u64;",
 			"",
 			"$1",
-			"int main(void) {",
+			"int main(int argc, char* argv[]) {",
 			"\t$0",
 			"\treturn 0;",
 			"}"
