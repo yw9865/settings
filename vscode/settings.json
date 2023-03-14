@@ -5,8 +5,10 @@
     // file setting
     "files.autoGuessEncoding": true,
     "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
     // better comments
     "better-comments.multilineComments": true,
     "better-comments.highlightPlainText": true,
@@ -124,4 +126,55 @@
     "[python]": {
         "editor.formatOnType": true
     },
+    "cmake.configureOnOpen": true,
+    "tabout.charactersToTabOutFrom": [
+        {
+            "open": "[",
+            "close": "]"
+        },
+        {
+            "open": "{",
+            "close": "}"
+        },
+        {
+            "open": "(",
+            "close": ")"
+        },
+        {
+            "open": "'",
+            "close": "'"
+        },
+        {
+            "open": "\"",
+            "close": "\""
+        },
+        {
+            "open": ":",
+            "close": ":"
+        },
+        {
+            "open": "=",
+            "close": "="
+        },
+        {
+            "open": ">",
+            "close": ">"
+        },
+        {
+            "open": "<",
+            "close": "<"
+        },
+        {
+            "open": ".",
+            "close": "."
+        },
+        {
+            "open": "`",
+            "close": "`"
+        },
+        {
+            "open": ";",
+            "close": ";"
+        }
+    ],
 }
