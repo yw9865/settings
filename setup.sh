@@ -20,19 +20,20 @@ fi
 
 display_help()
 {
-	echo "Usage: $0 <OPTION> <TARGET>" >&2
-	echo "  or:  $0 -o --linux : Overwrite current linux shell config" >&2
-	echo "  or:  $0 -u  	   : Update to current both config (linux, vscode)" >&2
+	echo "Usage:  $0 <OPTION> <TARGET>" >&2
+	echo " e.g.:  $0 -o --linux 	 : Overwrite current linux shell config" >&2
+	echo "   or:  $0 -u            : Update to current both config (linux, vscode)" >&2
 	echo
-	echo "OPTION"
-	echo "	 -o, --overwrite 	Overwrite original config to new one "
-	echo "	 -u, --update   	Update config to recent one"
-	echo "   -b, --backup		Add backup of original one to ./backup"
-	echo "	 -h, --help     	Display help message"
-	echo "TARGET"
-	echo "	 --all,(or empty)  Overwrite/Update both(linux and vscode) settings"
-	echo "	 --linux   		   Overwrite/Update linux shell settings"
-	echo "   --vscode		   Overwrite/Update vscode settings"
+	echo "OPTION:" >&2
+	echo "	 -o, --overwrite 	Overwrite original config to new one " >&2
+	echo "	 -u, --update   	Update config to recent one" >&2
+	echo "	 -b, --backup		Add backup of original one to ./backup" >&2
+	echo "	 -h, --help     	Display help message" >&2
+
+	echo "TARGET:" >&2
+	echo "	 --all,(or empty)  Overwrite/Update both(linux and vscode) settings" >&2
+	echo "	 --linux   		   Overwrite/Update linux shell settings" >&2
+	echo "	 --vscode		   Overwrite/Update vscode settings"
 }
 
 while true; do
