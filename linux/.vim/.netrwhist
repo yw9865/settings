@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/yongwan/Workspace/csi4109/.git'
+let g:netrw_dirhist_8='/home/yongwan/.oh-my-zsh'
+let g:netrw_dirhist_7='/home/yongwan'
+let g:netrw_dirhist_6='/home/yongwan/.oh-my-zsh'
+let g:netrw_dirhist_5='/'
+let g:netrw_dirhist_4='/home'
+let g:netrw_dirhist_3='/home/yongwan'
+let g:netrw_dirhist_2='/home/yongwan/.oh-my-zsh'
 let g:netrw_dirhist_1='/home/yongwan/Workspace/2d-agamotto/syzkaller/configs'
