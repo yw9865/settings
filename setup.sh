@@ -25,10 +25,10 @@ display_help()
 	echo "   or:  $0 -u            : Update to current both config (linux, vscode)" >&2
 	echo
 	echo "OPTION:" >&2
-	echo "	 -o, --overwrite 	Overwrite original config to new one " >&2
-	echo "	 -u, --update   	Update config to recent one" >&2
-	echo "	 -b, --backup		Add backup of original one to ./backup" >&2
-	echo "	 -h, --help     	Display help message" >&2
+	echo "	 -o, --overwrite 	   Overwrite original config to new one " >&2
+	echo "	 -u, --update   	   Update config to recent one" >&2
+	echo "	 -b, --backup		   Add backup of original one to ./backup" >&2
+	echo "	 -h, --help     	   Display help message" >&2
 
 	echo "TARGET:" >&2
 	echo "	 --all,(or empty)  Overwrite/Update both(linux and vscode) settings" >&2
