@@ -60,4 +60,4 @@ TARGET:
          --vscode                  Overwrite/Update vscode settings
 ```
 ## If you have any question or want to contribute,
-Please contact me through github or yw9865@gmail.com
+Please contact me through github or 70959544+yw9865@users.noreply.github.com
