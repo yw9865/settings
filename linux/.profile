@@ -54,3 +54,6 @@ export SZPATH=$GOPATH/src/github.com/google/syzkaller
 
 # add guest kernel path
 export KRPATH=$AGPATH/guest/linux/kernel
+
+# prepend TeX live to Path
+export PATH=$PATH:/usr/local/texlive/2022/bin/x86_64-linux
