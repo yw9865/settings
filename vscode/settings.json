@@ -1,11 +1,10 @@
 {
     "editor.fontFamily": "ubuntu mono",
     "gitlens.hovers.currentLine.over": "line",
-    "window.zoomLevel": 1,
     // file setting
     "files.autoGuessEncoding": true,
     "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
+    "files.trimTrailingWhitespace": false,
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
@@ -108,7 +107,7 @@
         "editorBracketHighlight.foreground2": "#6bcece",
         "editorBracketHighlight.foreground3": "#B388FF",
         "editorBracketHighlight.foreground4": "#F78C6C",
-        "editorBracketHighlight.foreground5": "#b9e982",
+        "editorBracketHighlight.foreground5": "#2654fb",
         "editorBracketHighlight.foreground6": "#EA80FC",
         "editorBracketHighlight.unexpectedBracket.foreground": "#FF80AB",
     },
@@ -126,7 +125,6 @@
     "[python]": {
         "editor.formatOnType": true
     },
-    "cmake.configureOnOpen": true,
     "tabout.charactersToTabOutFrom": [
         {
             "open": "[",
@@ -177,4 +175,6 @@
             "close": ";"
         }
     ],
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "window.zoomLevel": 1,
 }
