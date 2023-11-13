@@ -59,5 +59,4 @@ TARGET:
          --linux                   Overwrite/Update linux shell settings
          --vscode                  Overwrite/Update vscode settings
 ```
-## If you have any question,
-Please contact me through github or 70959544+yw9865@users.noreply.github.com
+
